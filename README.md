@@ -1,7 +1,7 @@
 ## Country Store 
 A web app that lists countries in the world. List of countries is fetched from https://restcountries.eu/ 
 
-#### Live link: 
+#### Live link: https://bcountry-api.netlify.app/
 
 ### Features
 
