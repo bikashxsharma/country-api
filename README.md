@@ -1,9 +1,11 @@
 ## Country Store 
-A web app which lists countries in the world. List of countries is fetched from https://restcountries.eu/   
+A web app that lists countries in the world. List of countries is fetched from https://restcountries.eu/ 
+
+#### Live link: 
 
 ### Features
 
-- Change color theme from left drawer
+- Change the color theme from the left drawer
 - Search countries by name
 - Add countries to the cart
 - View list of countries in the cart
