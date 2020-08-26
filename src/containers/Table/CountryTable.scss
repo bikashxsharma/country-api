@@ -1,0 +1,19 @@
+@import '../../styles/main';
+@media only screen and (max-width: 600px) {
+.mobile-hide{
+  
+}
+
+}
+
+.table-name {
+  display: flex !important;
+  align-items: center;
+  cursor: pointer;
+}
+.table-head {
+  .MuiTableCell-head {
+    color: $textDark !important;
+    font-weight: weight(bold) !important;
+  }
+}

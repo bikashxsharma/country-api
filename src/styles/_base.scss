@@ -1,0 +1,41 @@
+@import './reset';
+@import url('https://fonts.googleapis.com/css?family=Muli:wght$400;600;700&display=swap');
+
+// functions
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+// All variables
+$primary: #f2aa26;
+$primaryHover: #f09c01;
+$white: #ffffff;
+$textMain: #373585;
+$textDark: #363740;
+$grey: #a4a6b3;
+$lightGrey: #c5c7cd;
+$bgWhite: #f7f8fc;
+$font-family: 'Muli', sans-serif;
+$menu-highlight: #dde2ff;
+$error: #cf000f;
+$success: #009944;
+$box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.04);
+$font-weights: (
+  'regular': 400,
+  'medium': 600,
+  'bold': 700,
+);
+$landing-width: 1040px;
+:root {
+  font-size: 8px;
+  font-weight: weight(regular);
+}
+
+.cta-primary {
+  padding: 10px;
+  font-size: 2rem;
+  background-color: $primary;
+  &:hover {
+    background-color: $primaryHover;
+  }
+}

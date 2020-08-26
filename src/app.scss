@@ -1,0 +1,14 @@
+@import './styles/main';
+body {
+  background: $bgWhite;
+  font-family: $font-family;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: weight(bold);
+}
+p {
+  font-size: 2rem;
+  font-weight: weight(regular);
+}

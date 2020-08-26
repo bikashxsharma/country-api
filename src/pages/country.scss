@@ -1,0 +1,38 @@
+@import '../styles/main';
+.country-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  h2 {
+    font-size: 3rem !important;
+  }
+  h3 {
+    color: $textDark !important;
+    display: flex;
+  }
+  .country-card-subtext {
+    color: $grey !important;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5px !important;
+  }
+  .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    max-width: 700px !important;
+    min-width: 500px !important;
+  }
+  .MuiCardMedia-img {
+    object-fit: cover;
+    padding: 20px;
+    height: 100%;
+  }
+  .MuiButton-textSizeSmall {
+    padding: 4px 5px;
+    font-size: 1.625rem;
+    text-align: center;
+    margin: 5px auto;
+  }
+  .MuiCardContent-root {
+    padding: 16px;
+    text-align: center;
+  }
+}

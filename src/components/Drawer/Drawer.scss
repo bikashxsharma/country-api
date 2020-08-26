@@ -1,0 +1,35 @@
+.drawer-cart {
+  min-width: 250px !important;
+}
+.cart-item {
+  min-height: 70px !important;
+  margin-bottom: 5px;
+  padding: 10px;
+  img {
+    margin-right: 5px !important;
+  }
+  svg {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: start;
+  }
+}
+.color-purple{
+  .MuiButton-label{
+color:#9c27b0;
+  }
+  
+}
+.color-blue{
+  .MuiButton-label{
+  color:#3f51b5;}
+}
+.color-yellow{
+  .MuiButton-label{
+ color:#f2aa26;}
+}
